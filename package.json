@@ -28,14 +28,12 @@
       "target": [
         "dmg",
         "zip"
-      ],
-      "icon": "assets/icon.icns"
+      ]
     },
     "files": [
       "main.js",
       "preload.js",
-      "index.html",
-      "assets/**/*"
+      "index.html"
     ]
   }
 }
