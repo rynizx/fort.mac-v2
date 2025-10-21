@@ -1,0 +1,41 @@
+{
+  "name": "fort-mac-app",
+  "version": "1.0.0",
+  "description": "Fort1nd macOS Electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac",
+    "build:arm64": "electron-builder --mac --arm64",
+    "build:x64": "electron-builder --mac --x64"
+  },
+  "keywords": [
+    "electron",
+    "macos",
+    "fort1nd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.fort1nd.macapp",
+    "productName": "Fort1nd",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "assets/icon.icns"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "assets/**/*"
+    ]
+  }
+}
