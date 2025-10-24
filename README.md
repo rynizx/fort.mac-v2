@@ -1,3 +1,4 @@
+# THIS REPO IS ARCHIVED!! go to fort-ind/fort.mac-v2 for the latest update!
 # fort.mac-v2
 Fort1nd macOS Electron app - completely rewritten
 
