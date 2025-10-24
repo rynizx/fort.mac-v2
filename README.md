@@ -2,7 +2,7 @@
 Fort1nd macOS Electron app - completely rewritten
 
 ## Description
-This is an Electron-based macOS application that embeds and displays the website www.fort1nd.com.
+This is an Electron-based macOS application that embeds for i promise it's not gonna be a Electron app forever ok?
 
 ## Prerequisites
 - Node.js 16 or higher
@@ -38,7 +38,6 @@ The built application will be available in the `dist` folder.
 
 ## Features
 - Native macOS application using Electron
-- Embeds www.fort1nd.com website
 - Native window controls
 - macOS-optimized UI
 - Loading indicator
